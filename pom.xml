@@ -12,6 +12,24 @@
   <url>https://oss-learn.github.io/java-maven</url>
   <description>Simpla Java app, built with Apache Maven.</description>
 
+  <organization>
+    <name>OSS Learn</name>
+    <url>https://oss-learn.github.io/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:https://github.com/oss-learn/${project.artifactId}.git</connection>
+    <developerConnection>${project.scm.connection}</developerConnection>
+    <url>https://oss-learn.github.io/${project.artifactId}/</url>
+  </scm>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
