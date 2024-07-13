@@ -5,7 +5,7 @@
 
   <groupId>io.github.oss-learn</groupId>
   <artifactId>java-maven</artifactId>
-  <version>1.0.0-beta-1</version>
+  <version>1.0.0-beta-2-SNAPSHOT</version>
 
   <name>java-maven</name>
   <url>https://oss-learn.github.io/java-maven</url>
@@ -33,7 +33,7 @@
     <connection>scm:git:https://github.com/oss-learn/${project.artifactId}.git</connection>
     <developerConnection>${project.scm.connection}</developerConnection>
     <url>https://oss-learn.github.io/${project.artifactId}/</url>
-    <tag>java-maven-1.0.0-beta-1</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
